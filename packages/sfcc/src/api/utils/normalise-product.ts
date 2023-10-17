@@ -58,7 +58,7 @@ export function normalizeProduct(
     slug: product.id, // use product ID as a slug
     name: product.name!,
     path: `/${product.id}`,
-    description: product.longDescription!,
+    description: product.shortDescription!,
     price: {
       value: product.price!,
       currencyCode: product.currency,
@@ -80,7 +80,7 @@ export function normalizeSearchProducts(
     slug: product.productId, // use product ID as a slug
     path: `/${product.productId}`,
     name: product.productName!,
-    description: '',
+    description: product.shortDescription,
     price: {
       value: product.price!,
       currencyCode: product.currency,

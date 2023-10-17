@@ -6,7 +6,7 @@ module.exports = {
     domains: [
       'localhost',
       'edge.disstg.commercecloud.salesforce.com',
-      'zzte-053.sandbox.us02.dx.commercecloud.salesforce.com',
+      'zzse-103.dx.commercecloud.salesforce.com',
     ],
   },
 }
