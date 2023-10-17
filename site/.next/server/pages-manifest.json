@@ -1,0 +1,19 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/api/commerce/[[...commerce]]": "pages/api/commerce/[[...commerce]].js",
+  "/404": "pages/404.js",
+  "/[...pages]": "pages/[...pages].js",
+  "/": "pages/index.js",
+  "/orders": "pages/orders.js",
+  "/profile": "pages/profile.js",
+  "/cart": "pages/cart.js",
+  "/product/[slug]": "pages/product/[slug].js",
+  "/search": "pages/search.js",
+  "/search/[category]": "pages/search/[category].js",
+  "/search/designers/[name]": "pages/search/designers/[name].js",
+  "/search/designers/[name]/[category]": "pages/search/designers/[name]/[category].js",
+  "/wishlist": "pages/wishlist.js",
+  "/en-GB/500": "pages/en-GB/500.html"
+}
